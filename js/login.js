@@ -72,7 +72,7 @@ function login(e) {
           return;
         }
       }
-    }
+    } 
 
     // truong hop chua sign up
     if (!JSON.parse(localStorage.getItem("current_user"))) {
